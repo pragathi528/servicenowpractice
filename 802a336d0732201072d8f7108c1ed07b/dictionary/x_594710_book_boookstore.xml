@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="BoookStore" max_length="40" name="x_594710_book_boookstore" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="BookId" max_length="40" name="bookid" type="integer"/>
+        <element label="BookName" max_length="40" name="bookname" type="string"/>
+    </element>
+</database>
