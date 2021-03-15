@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="student information" max_length="40" name="x_594710_book_student_information" type="collection">
+        <element label="Address" max_length="40" name="address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact No" max_length="40" name="contact_no" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Department" max_length="40" name="department" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="CIVIL" value="civil"/>
+                <element inactive_on_update="false" label="CSE" value="cse"/>
+                <element inactive_on_update="false" label="ECE" value="ece"/>
+                <element inactive_on_update="false" label="EEE" value="eee"/>
+                <element inactive_on_update="false" label="MECH" value="mech"/>
+            </choice>
+        </element>
+        <element label="DOB" max_length="40" name="dob" type="glide_date"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Roll No" max_length="10" name="roll_no" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Mobile No" max_length="40" name="u_integer_1" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Number" max_length="40" name="u_integer_2" type="integer"/>
+    </element>
+</database>

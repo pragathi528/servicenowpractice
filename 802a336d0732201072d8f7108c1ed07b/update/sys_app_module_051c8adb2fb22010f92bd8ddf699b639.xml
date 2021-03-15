@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application/>
+        <application display_value="Book">fc8afb210732201072d8f7108c1ed068</application>
         <assessment/>
         <device_type/>
         <filter/>
-        <hint/>
+        <hint>This is only separator</hint>
         <homepage/>
         <image/>
-        <link_type>LIST</link_type>
+        <link_type>SEPARATOR</link_type>
         <map_page/>
-        <mobile_title>Closed</mobile_title>
+        <mobile_title>Faculty Details</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>task</name>
-        <order>5</order>
-        <override_menu_roles>false</override_menu_roles>
-        <query>active=false^EQ</query>
+        <name/>
+        <order>21</order>
+        <override_menu_roles>true</override_menu_roles>
+        <query/>
         <report/>
-        <roles/>
+        <roles>admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-03-10 06:18:50</sys_created_on>
+        <sys_created_on>2021-03-15 08:47:59</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>b88abf6d0732201072d8f7108c1ed0b4</sys_id>
+        <sys_id>051c8adb2fb22010f92bd8ddf699b639</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Closed</sys_name>
+        <sys_name>Faculty Details</sys_name>
         <sys_overrides/>
         <sys_package display_value="Book" source="x_594710_book">802a336d0732201072d8f7108c1ed07b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Book">802a336d0732201072d8f7108c1ed07b</sys_scope>
-        <sys_update_name>sys_app_module_b88abf6d0732201072d8f7108c1ed0b4</sys_update_name>
+        <sys_update_name>sys_app_module_051c8adb2fb22010f92bd8ddf699b639</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-10 06:18:50</sys_updated_on>
+        <sys_updated_on>2021-03-15 08:47:59</sys_updated_on>
         <timeline_page/>
-        <title>Closed</title>
+        <title>Faculty Details</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
