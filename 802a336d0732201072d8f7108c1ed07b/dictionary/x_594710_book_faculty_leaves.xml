@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="faculty leaves" max_length="40" name="x_594710_book_faculty_leaves" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="faculty type" max_length="40" name="department" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Asst.Proff" sequence="0" value="asst.prof"/>
+                <element inactive="true" inactive_on_update="true" label="HOD" sequence="0" value="hod"/>
+                <element inactive_on_update="false" label="Professor" sequence="1" value="profess"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="department" max_length="40" name="faculty_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="CIVIL" value="civil"/>
+                <element inactive_on_update="false" label="CSE" value="cse"/>
+                <element inactive_on_update="false" label="ECE" value="ece"/>
+                <element inactive_on_update="false" label="EEE" value="eee"/>
+                <element inactive_on_update="false" label="MECH" value="mech"/>
+            </choice>
+        </element>
+        <element label="from date" mandatory="true" max_length="40" name="from_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Hod Name" max_length="32" name="hod_name" reference="sys_user" type="reference"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="to date" mandatory="true" max_length="40" name="to_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="no of dates" max_length="40" name="u_integer_1" type="integer"/>
+        <index name="index">
+            <element name="hod_name"/>
+        </index>
+    </element>
+</database>
